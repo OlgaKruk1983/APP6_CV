@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+   
+    
+    
+    <div style="background-color: rgb(56, 56, 223);">
+    <h1><b>Envía tu CV</b></h1>
+    <h3>Forma parte de nuestra cartera de candidatos para todas nuestras oportunidades de carrera</h3>
+    <br>
+</div>
+
+<h1>Datos personales</h1>
+
+<h2>Rellena el siguiente formulario y envíanos tu CV</h2>
+
+<form action="registrar.php" method="post">
+    <h3>Email</h3>
+    <input type="text" name="email" required style="width: 200px; height: 30px;">
+    <p style="color: red">Este campo es obligatorio</p>
+
+    <h3>¿Cómo nos dirigimos a ti?</h3>
+    <select name="" id="" style="width: 200px; height: 30px;">
+        <option value="" >Selecciona</option>
+        <option value="">Señor</option>
+        <option value="">Señora</option>
+       
+    </select><br><br>
+
+    <h3>Nombre</h3>
+    <input type="text" name="nombre" style="width: 200px; height: 30px;">
+    <h3>Apellido(s)</h3>
+    <input type="text" name="apellido" style="width: 200px; height: 30px;"><br><br>
+
+    <h3>Teléfono</h3>
+    <input type="text" name="telefono" required style="width: 200px; height: 30px;">
+    <p>Por favor, incluir código de país y de área</p>
+
+    <h3>¿En qué pueblo o ciudad vives?</h3>
+    <input type="text" name="ciudad" placeholder="Type city or town" style="width: 200px; height: 30px;">
+
+    <h3>¿Cuál es tu código postal?</h3>
+    <input type="text" name="codigo" placeholder="Enter postcode" style="width: 200px; height: 30px;"><br>
+    <input type="checkbox">No poseo código postal de ES
+
+    <h3>Subir CV</h3>
+    
+        <input type="file">
+    
+    <p>Selecciona un CV (TXT, PDF o Word DOC)</p>
+
+    <button type="submit" style="background-color: blue; color: white;">ENVIAR DATOS</button>
+
+    
+    <button onclick="window.print()">Empimir</button>
+
+    
+
+    
+
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+</body>
+</html>
